@@ -18,6 +18,7 @@ Incluye opciones para respaldar bases completas, solo estructuras, restaurar, pr
 - 🖥️ Interfaz amigable con menús en la terminal (mejorado con [fzf](https://github.com/junegunn/fzf) si está disponible)
 
 ---
+![Logo del proyecto](images/pantalla.png)
 
 ## 📥 Instalación
 
