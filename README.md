@@ -4,7 +4,8 @@ Este script en **Bash** permite gestionar de forma sencilla y profesional los **
 Incluye opciones para respaldar bases completas, solo estructuras, restaurar, programar en `cron` y mantener un log detallado.
 
 ![Debian](https://img.shields.io/badge/Linux-Debian-red?logo=debian&logoColor=white)
-![SSH](https://img.shields.io/badge/SH-Script-blue?logo=ssh&logoColor=white)
+![Sh](https://img.shields.io/badge/SH-Script-blue?logo=ssh&logoColor=white)
+![Gvim](https://img.shields.io/badge/VI-Editor-orange?logo=Gvim&logoColor=white)
 ---
 ![Logo del proyecto](https://github.com/moleculax/backup-manager/blob/main/pantalla.png)
 
