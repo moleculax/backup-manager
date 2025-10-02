@@ -30,4 +30,8 @@ Clonar o copiar el script:
 git clone https://github.com/tuusuario/backup-manager.git
 cd backup-manager
 chmod +x backup_manager.sh
+```
+
+![Debian](https://img.shields.io/badge/Linux-Debian-red?logo=debian&logoColor=white)
+![SSH](https://img.shields.io/badge/SH-Script-blue?logo=ssh&logoColor=white)
 
