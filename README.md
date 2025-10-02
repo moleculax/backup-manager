@@ -3,6 +3,8 @@
 Este script en **Bash** permite gestionar de forma sencilla y profesional los **backups y restauraciones** de bases de datos en **MariaDB/MySQL**.  
 Incluye opciones para respaldar bases completas, solo estructuras, restaurar, programar en `cron` y mantener un log detallado.
 
+![Debian](https://img.shields.io/badge/Linux-Debian-red?logo=debian&logoColor=white)
+![SSH](https://img.shields.io/badge/SH-Script-blue?logo=ssh&logoColor=white)
 ---
 ![Logo del proyecto](https://github.com/moleculax/backup-manager/blob/main/pantalla.png)
 
@@ -32,6 +34,5 @@ cd backup-manager
 chmod +x backup_manager.sh
 ```
 
-![Debian](https://img.shields.io/badge/Linux-Debian-red?logo=debian&logoColor=white)
-![SSH](https://img.shields.io/badge/SH-Script-blue?logo=ssh&logoColor=white)
+
 
