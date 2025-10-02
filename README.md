@@ -2,7 +2,7 @@
 
 Este script en **Bash** permite gestionar de forma sencilla y profesional los **backups y restauraciones** de bases de datos en **MariaDB/MySQL**.  
 Incluye opciones para respaldar bases completas, solo estructuras, restaurar, programar en `cron` y mantener un log detallado.
-
+![Logo del proyecto](https://github.com/moleculax/backup-manager/blob/main/pantalla.png)
 ---
 
 ## ✨ Características
@@ -18,7 +18,7 @@ Incluye opciones para respaldar bases completas, solo estructuras, restaurar, pr
 - 🖥️ Interfaz amigable con menús en la terminal (mejorado con [fzf](https://github.com/junegunn/fzf) si está disponible)
 
 ---
-![Logo del proyecto](images/pantalla.png)
+
 
 ## 📥 Instalación
 
