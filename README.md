@@ -33,6 +33,7 @@ Clonar o copiar el script:
 git clone https://github.com/tuusuario/backup-manager.git
 cd backup-manager
 chmod +x backup_manager.sh
+./backup_manager.sh
 ```
 
 
