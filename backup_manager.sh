@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # =========================================
-# Script Backup MariaDB/MySQL Profesional
+# Script Backup MariaDB/MySQL 
 # Author: Emilio J. Gomez (@moleculax)
+# http://moleculaxapp.vercel.app
 # =========================================
 
 # Función para centrar texto
@@ -41,11 +42,11 @@ validar_login() {
         unset MYSQL_PWD
 
         if [ $status -eq 0 ]; then
-            centrar "✅ Login exitoso"
+            centrar " Login exitoso"
             sleep 1
             break
         else
-            centrar "❌ Usuario o contraseña incorrectos. Intenta nuevamente."
+            centrar " Usuario o contraseña incorrectos. Intenta nuevamente."
             sleep 2
         fi
     done
@@ -75,7 +76,7 @@ crear_backup() {
 
     unset MYSQL_PWD
 
-    centrar "✅ Backup $tipo de '$db' creado: $BACKUP_FILE"
+    centrar "Backup $tipo de '$db' creado: $BACKUP_FILE"
     sleep 2
 }
 
@@ -132,7 +133,7 @@ menu_principal() {
                 exit 0
                 ;;
             *)
-                centrar "❌ Opción inválida"
+                centrar "Opción inválida"
                 sleep 1
                 ;;
         esac
